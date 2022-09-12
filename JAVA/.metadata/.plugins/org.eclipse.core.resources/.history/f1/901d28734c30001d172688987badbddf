@@ -1,0 +1,29 @@
+package entrada_saida_processamento;
+
+import java.util.Scanner;
+
+public class Ex40 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		int v1 = 1;
+		int v2 = 1;
+		int v3 = 1;
+		int v4 = 1;
+		int v5 = 20;
+		int soma;
+		
+		
+		while(v4 <= v5) {
+			soma = v1 + v2 + v3;
+			v1 = v2;
+			v2 = v3;
+			v3 = soma;
+			v4 = v4 + 1;
+		}
+
+		}
+	}
+
+

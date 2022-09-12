@@ -1,0 +1,23 @@
+package entrada_saida_processamento;
+import java.util.Scanner;
+
+
+public class Ex39 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		int v1 = 0;
+		int v2 = 1;
+		int soma = 1;
+		int i;
+		
+		for (i = 0; i >= 29;) {
+			soma = v2 + v1;
+			v1 = v2;
+			v2 = soma;
+			System.out.printf("seq %d", v1);
+		}
+	}
+
+}
