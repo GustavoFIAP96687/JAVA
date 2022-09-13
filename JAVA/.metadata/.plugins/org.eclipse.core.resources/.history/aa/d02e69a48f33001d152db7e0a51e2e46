@@ -1,0 +1,10 @@
+package entrada_saida_processamento;
+
+import java.util.*;
+
+public class Ex40W {
+	Scanner ler = new Scanner(System.in);
+	
+	int a = -1, b = 1, c = 1, r = a +b+c;
+	
+}

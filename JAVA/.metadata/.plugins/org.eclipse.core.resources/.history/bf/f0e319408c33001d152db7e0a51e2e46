@@ -1,0 +1,7 @@
+package entrada_saida_processamento;
+
+import java.util.*;
+
+public class Ex45F {
+		Scanner ler = new Scanner(System.in);
+}
