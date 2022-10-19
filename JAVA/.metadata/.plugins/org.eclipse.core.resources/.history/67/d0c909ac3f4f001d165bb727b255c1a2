@@ -1,0 +1,10 @@
+package aula_8;
+
+public class programa_caixa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -16,7 +16,7 @@ public class Ex49W {
 		
 		s = 0;
 		i = 1;
-		
+		// indexOf acha o indice do array
 		while(inicial <= fim) {
 			s = s + inicial;
 			inicial ++;
