@@ -1,0 +1,13 @@
+package aula_8;
+
+public class Cliente {
+	private int id;
+	private String nome;
+	private int idade;
+	
+	
+	public Cliente() {
+		
+	}
+
+}
